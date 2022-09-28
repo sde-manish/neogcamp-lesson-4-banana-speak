@@ -1,19 +1,6 @@
-/*What is vanilla JavaScript?
-Vanilla JavaScript refers to using plain Javascript without any additional
- libraries or frameworks. The term became popular when Eric Wastl created 
- the Vanilla JS site in 2012 as a joke. The site tries to bring attention 
- to the fact that you can use just plain Javascript in many cases.*/
+/* creating reference to the button */
 
-// console.log("script is working from a different file")
+var btntranslate=document.querySelector("#btn-translate");
 
-// alert("this script works")  {this is one way to show alert message}
-
-// var username=prompt("give me your username")
-// alert("this script works "+username);
-
-// input
-var username =prompt("give me username")
-// processing
-var welcomemessage ="this script works "+username;
-// output
-alert(welcomemessage)
+/* click event handling */
+btntranslate.addEventListener("click",function clickEventHandler() {console.log("clicked !")}) 
